@@ -1,0 +1,48 @@
+body{
+    background-color: whitesmoke;
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+    font-family: "Reddit Sans", sans-serif;
+}
+container{
+    position: relative;
+    left: 200px;
+  }
+.values{
+    margin-left: 2%;
+}
+.valuesM{
+    margin-left: 2%;
+
+}
+.ArrHeader{
+    content: none;   
+}
+summary::marker{
+    content: "";
+}
+summary{
+    margin: 0;
+    padding: 0;
+}
+.ArrHeader{
+    cursor: pointer;
+    font-weight: 550;
+}
+.ArrHeader:hover{
+    text-decoration: underline 2px;
+}
+details{
+    margin-bottom: -20px;
+}
+details[open]{
+    margin-bottom: 0px;
+}
+.redText{
+    color: rgb(123, 0, 0);
+    font-weight: 600;
+}
+.greenText{
+    color: rgb(0, 109, 15);
+    font-weight: 600;
+}
